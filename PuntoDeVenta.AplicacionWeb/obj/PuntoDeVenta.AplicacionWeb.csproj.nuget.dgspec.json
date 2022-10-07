@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\PuntoDeVenta.AplicacionWeb.csproj": {}
+  },
+  "projects": {
+    "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\PuntoDeVenta.AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\PuntoDeVenta.AccesoDatos.csproj",
+        "projectName": "PuntoDeVenta.AccesoDatos",
+        "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\PuntoDeVenta.AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
+        "outputPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\PuntoDeVenta.AplicacionWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\PuntoDeVenta.AplicacionWeb.csproj",
+        "projectName": "PuntoDeVenta.AplicacionWeb",
+        "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\PuntoDeVenta.AplicacionWeb.csproj",
+        "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
+        "outputPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj"
+              },
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.InsercionDependencias\\PuntoDeVenta.InsercionDependencias.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.InsercionDependencias\\PuntoDeVenta.InsercionDependencias.csproj"
+              },
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\PuntoDeVenta.LogicaDeNegocio.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\PuntoDeVenta.LogicaDeNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj",
+        "projectName": "PuntoDeVenta.Entity",
+        "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj",
+        "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
+        "outputPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.InsercionDependencias\\PuntoDeVenta.InsercionDependencias.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.InsercionDependencias\\PuntoDeVenta.InsercionDependencias.csproj",
+        "projectName": "PuntoDeVenta.InsercionDependencias",
+        "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.InsercionDependencias\\PuntoDeVenta.InsercionDependencias.csproj",
+        "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
+        "outputPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.InsercionDependencias\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\PuntoDeVenta.AccesoDatos.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\PuntoDeVenta.AccesoDatos.csproj"
+              },
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\PuntoDeVenta.LogicaDeNegocio.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\PuntoDeVenta.LogicaDeNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\PuntoDeVenta.LogicaDeNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\PuntoDeVenta.LogicaDeNegocio.csproj",
+        "projectName": "PuntoDeVenta.LogicaDeNegocio",
+        "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\PuntoDeVenta.LogicaDeNegocio.csproj",
+        "packagesPath": "C:\\Users\\viole\\.nuget\\packages\\",
+        "outputPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.LogicaDeNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\viole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\PuntoDeVenta.AccesoDatos.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AccesoDatos\\PuntoDeVenta.AccesoDatos.csproj"
+              },
+              "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj": {
+                "projectPath": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.Entity\\PuntoDeVenta.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

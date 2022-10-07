@@ -1,0 +1,17 @@
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\bin\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.deps.json
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\bin\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\bin\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.pdb
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.csproj.AssemblyReference.cache
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.AssemblyInfoInputs.cache
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.AssemblyInfo.cs
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\refint\PuntoDeVenta.LogicaDeNegocio.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.pdb
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\ref\PuntoDeVenta.LogicaDeNegocio.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\bin\Debug\net6.0\PuntoDeVenta.AccesoDatos.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\bin\Debug\net6.0\PuntoDeVenta.Entity.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\bin\Debug\net6.0\PuntoDeVenta.AccesoDatos.pdb
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\bin\Debug\net6.0\PuntoDeVenta.Entity.pdb
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.LogicaDeNegocio\obj\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.csproj.CopyComplete

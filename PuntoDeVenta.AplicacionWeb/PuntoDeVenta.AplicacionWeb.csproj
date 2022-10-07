@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PuntoDeVenta.Entity\PuntoDeVenta.Entity.csproj" />
+    <ProjectReference Include="..\PuntoDeVenta.InsercionDependencias\PuntoDeVenta.InsercionDependencias.csproj" />
+    <ProjectReference Include="..\PuntoDeVenta.LogicaDeNegocio\PuntoDeVenta.LogicaDeNegocio.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.AccesoDatos.deps.json
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.AccesoDatos.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.AccesoDatos.pdb
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.csproj.AssemblyReference.cache
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.AssemblyInfoInputs.cache
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.AssemblyInfo.cs
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.csproj.CoreCompileInputs.cache
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\refint\PuntoDeVenta.AccesoDatos.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.pdb
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\ref\PuntoDeVenta.AccesoDatos.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.Entity.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.Entity.pdb
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.csproj.CopyComplete
