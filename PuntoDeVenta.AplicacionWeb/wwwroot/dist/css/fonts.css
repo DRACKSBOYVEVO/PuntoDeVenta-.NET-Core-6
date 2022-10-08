@@ -1,0 +1,204 @@
+﻿/*
+    Si la fuente es muy importante en nuestro diseño, elegiría «swap»; 
+    si es relativamente importante, me decantaría por «fallback»; 
+    y si necesitamos, ante todo, buen rendimiento, establecería font-display en «optional».
+
+    Más información: https://www.soyunignorante.es/optimizacion-de-fuentes-tipograficas-en-la-web/
+*/
+
+/*==FUENTES DEL TEMA==*/
+
+/*Source Sans Pro*/
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Bold.woff2') format('woff2'), url('SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-BlackItalic.woff2') format('woff2'), url('SourceSansPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Black.woff2') format('woff2'), url('SourceSansPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-BoldItalic.woff2') format('woff2'), url('SourceSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Italic.woff2') format('woff2'), url('SourceSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-ExtraLight.woff2') format('woff2'), url('SourceSansPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Light.woff2') format('woff2'), url('SourceSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-ExtraLightItalic.woff2') format('woff2'), url('SourceSansPro-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-LightItalic.woff2') format('woff2'), url('SourceSansPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Regular.woff2') format('woff2'), url('SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-SemiBoldItalic.woff2') format('woff2'), url('SourceSansPro-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-SemiBold.woff2') format('woff2'), url('SourceSansPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+}
+
+/*Roboto*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-LightItalic.woff2') format('woff2'), url('Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-BoldItalic.woff2') format('woff2'), url('Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-BlackItalic.woff2') format('woff2'), url('Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Italic.woff2') format('woff2'), url('Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.woff2') format('woff2'), url('Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.woff2') format('woff2'), url('Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.woff2') format('woff2'), url('Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.woff2') format('woff2'), url('Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-MediumItalic.woff2') format('woff2'), url('Roboto-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.woff2') format('woff2'), url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Thin.woff2') format('woff2'), url('Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic.woff2') format('woff2'), url('Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
