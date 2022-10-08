@@ -17,7 +17,8 @@ namespace PuntoDeVenta.InsercionDependencias
 {
     public static class Dependencia
     {
-        public static void InyectarDependencia(this IServiceCollection services, IConfiguration configuration){
+        public static void InyectarDependencia(this IServiceCollection services, IConfiguration configuration)
+        {
             /* Registrar el DbContext con el contenedor DI. */
             services.AddDbContext<DB_PROYECTOContext>(options =>
             {
