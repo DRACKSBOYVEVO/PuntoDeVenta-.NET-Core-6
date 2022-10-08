@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewData["Title"] - PuntoDeVenta.AplicacionWeb</title>
-    <link href="~/dist/css/fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/PuntoDeVenta.AplicacionWeb.styles.css" asp-append-version="true" />
+    <link href="~/dist/css/fonts.css" rel="stylesheet"/>
+    <link href="~/dist/css/adminlte.min.css" rel="stylesheet"/>
+    <link href="~/dist/css/puntodeventa.aplicacionweb.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/plugins/fontawesome-free/css/all.min.css" rel="stylesheet"/>
+    <link href="~/plugins/overlayscrollbars/css/overlayscrollbars.min.css" rel="stylesheet"/>
 </head>
 <body>
     <header>
@@ -31,6 +32,8 @@
             </div>
         </nav>
     </header>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -42,9 +45,22 @@
             &copy; 2022 - PuntoDeVenta.AplicacionWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    @*Scripts*@
+    <!-- jQuery -->
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="~/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="~/plugins/overlayscrollbars/js/jquery.overlayscrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/dist/js/adminlte.js" asp-append-version="true"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="~/dist/js/pages/dashboard.js" asp-append-version="true"></script>
+    <script src="~/dist/js/pages/dashboard3.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
