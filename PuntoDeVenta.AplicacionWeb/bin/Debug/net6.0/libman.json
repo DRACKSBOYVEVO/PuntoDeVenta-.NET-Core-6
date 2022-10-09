@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "Chart.js@3.9.1",
+      "destination": "wwwroot/plugins/Chart.js/",
+      "files": [
+        "chart.min.js",
+        "chart.js"
+      ]
+    },
+    {
+      "library": "bootstrap@5.2.2",
+      "destination": "wwwroot/plugins/bootstrap/"
+    },
+    {
+      "library": "jquery@3.6.1",
+      "destination": "wwwroot/plugins/jquery/"
+    },
+    {
+      "library": "jquery-validate@1.19.5",
+      "destination": "wwwroot/plugins/jquery-validate/"
+    },
+    {
+      "library": "select2@4.0.13",
+      "destination": "wwwroot/plugins/select2/"
+    },
+    {
+      "library": "select2-bootstrap-theme@0.1.0-beta.10",
+      "destination": "wwwroot/plugins/select2-bootstrap-theme/"
+    },
+    {
+      "library": "popper.js@2.11.6",
+      "destination": "wwwroot/plugins/popper.js/"
+    }
+  ]
+}

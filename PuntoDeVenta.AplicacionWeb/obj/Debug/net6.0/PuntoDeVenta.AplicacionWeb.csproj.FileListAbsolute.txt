@@ -65,3 +65,4 @@ D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWe
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.pdb
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\PuntoDeVenta.AccesoDatos.pdb
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\obj\Debug\net6.0\PuntoDeVenta.AplicacionWeb.csproj.CopyComplete
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\libman.json
