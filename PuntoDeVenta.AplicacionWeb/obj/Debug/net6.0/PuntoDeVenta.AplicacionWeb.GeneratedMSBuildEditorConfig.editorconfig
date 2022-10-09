@@ -15,20 +15,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/DashBoard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Usuario/usuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1x1c3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/_ViewImports.cshtml]

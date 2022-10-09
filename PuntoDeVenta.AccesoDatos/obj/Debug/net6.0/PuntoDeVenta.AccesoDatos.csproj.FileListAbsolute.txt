@@ -13,3 +13,5 @@ D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.Entity.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.Entity.pdb
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.csproj.CopyComplete
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\bin\Debug\net6.0\PuntoDeVenta.AccesoDatos.runtimeconfig.json
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AccesoDatos\obj\Debug\net6.0\PuntoDeVenta.AccesoDatos.genruntimeconfig.cache

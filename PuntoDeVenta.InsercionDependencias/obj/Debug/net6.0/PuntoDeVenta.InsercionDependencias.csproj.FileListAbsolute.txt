@@ -17,3 +17,5 @@ D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.InsercionDep
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.InsercionDependencias\bin\Debug\net6.0\PuntoDeVenta.LogicaDeNegocio.pdb
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.InsercionDependencias\bin\Debug\net6.0\PuntoDeVenta.Entity.pdb
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.InsercionDependencias\obj\Debug\net6.0\PuntoDeVenta.InsercionDependencias.csproj.CopyComplete
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.InsercionDependencias\bin\Debug\net6.0\PuntoDeVenta.InsercionDependencias.runtimeconfig.json
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.InsercionDependencias\obj\Debug\net6.0\PuntoDeVenta.InsercionDependencias.genruntimeconfig.cache
