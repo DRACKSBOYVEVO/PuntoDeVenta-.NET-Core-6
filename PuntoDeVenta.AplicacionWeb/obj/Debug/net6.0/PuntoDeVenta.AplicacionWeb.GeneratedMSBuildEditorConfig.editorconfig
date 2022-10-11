@@ -15,8 +15,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/DashBoard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaEJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Documentacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRhY2lvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/HistorialVentas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsVmVudGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Negocio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/NuevaVenta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVldmFWZW50YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Productos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/ReporteDeVentas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZURlVmVudGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/Error.cshtml]
