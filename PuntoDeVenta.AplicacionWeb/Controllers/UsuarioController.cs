@@ -4,7 +4,7 @@ namespace PuntoDeVenta.AplicacionWeb.Controllers
 {
     public class UsuarioController : Controller
     {
-        public IActionResult usuario()
+        public IActionResult Index()
         {
             return View();
         }

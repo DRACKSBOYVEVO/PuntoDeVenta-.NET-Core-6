@@ -1,6 +1,6 @@
 ﻿<aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a class="brand-link" asp-area="" asp-controller="Home" asp-action="Index">
+    <a class="brand-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
         <img src="dist/img/Logo-proyect.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
              style="opacity: .8">
         <span class="brand-text font-weight-500">Punto De Venta 3.0</span>
@@ -33,42 +33,102 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column nav-compact nav-flat" data-widget="treeview" role="menu" data-accordion="false">
-                <li class="nav-item menu-open">
+                <li class="nav-item">
                     <a class="nav-link active">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Dashboard
+                            Administrar
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a asp-action="#" class="nav-link">
+                            <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Index">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Elemento</p>
+                                <p>Usuarios</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a asp-action="#" class="nav-link">
+                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Elemento</p>
+                                <p>Negocio</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Inventario
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Categorias</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Productos</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Ventas
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Nueva Venta</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Historial Venta</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Reportes
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="" asp-action="">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Reporte de Ventas</p>
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a asp-action="#" class="nav-link">
+                    <a class="nav-link" asp-area="" asp-controller="" asp-action="">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
-                            Elemento + Span
-                            <span class="right badge badge-danger">New</span>
+                            Documentación
+                            <span class="right badge badge-danger">Repositorio</span>
                         </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a asp-action="#" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
-                        <p>Elemento</p>
                     </a>
                 </li>
             </ul>
