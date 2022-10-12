@@ -55,6 +55,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_LoginExterno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkV4dGVybm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_NavBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -69,6 +73,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/Usuario/Index.cshtml]
