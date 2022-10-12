@@ -50,6 +50,6 @@ app.UseAuthorization();
 /* Mapeo de la ruta del controlador. */
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=LoginExterno}/{action=Index}/{id?}");
+    pattern: "{controller=DashBoard}/{action=Index}/{id?}");
 
 app.Run();
