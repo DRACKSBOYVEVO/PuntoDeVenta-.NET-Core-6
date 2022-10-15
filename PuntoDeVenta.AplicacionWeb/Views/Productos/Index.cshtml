@@ -1,8 +1,184 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Lista de productos - Punto De Venta";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+@section Styles{
+    <link href="~/lib/datatables-bs4/css/datatables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/lib/datatables-responsive/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/lib/datatables-buttons/css/buttons.bootstrap4.min.css" rel="stylesheet" />
+}
+
+    <div class="card">
+        <h5 class="card-header bg-dark text-white">Productos</h5>
+        <div class="card-body">
+            <h5 class="card-title text-bold mb-2">Visualizar productos</h5>
+            <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut ipsum et augue mattis scelerisque.</p>
+
+            <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#ModalNuevoProducto">
+                <i class="fa fa-plus mr-2"></i>
+                Nuevo producto
+            </button>
+
+            <table class="table table-sm table-bordered table-striped mt-3" id="example1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Código</th>
+                        <th>Marca</th>
+                        <th>Descripción</th>
+                        <th>Categoria</th>
+                        <th>Stock</th>
+                        <th>Precio</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                        <td>Item</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>ID</th>
+                        <th>Código</th>
+                        <th>Marca</th>
+                        <th>Descripción</th>
+                        <th>Categoria</th>
+                        <th>Stock</th>
+                        <th>Precio</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    @*Ventana Nueva Categoria*@
+    <div class="modal fade" id="ModalNuevoProducto" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Detalles del producto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label class="col-sm-2 col-form-label">Descripción</label>
+                        <div class="col-sm-12">
+                            <textarea class="form-control" rows="3" placeholder="Descripción del producto" style="resize:none;"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-2 row">
+                                <label class="col-sm-2 col-form-label">Marca</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control ml-3" placeholder="Marca del producto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-2 row">
+                                <label class="col-sm-2 col-form-label">Código</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" placeholder="Código del producto" maxlength="30">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-2 row">
+                                <label class="col-sm-2 col-form-label">Categoria</label>
+                                <div class="col-sm-9">
+                                    <select class="estado-categoria form-control ml-3">
+                                        <option value="0" selected>Seleccionar una categoria</option>
+                                        <option value="1">Nueva</option>
+                                        <option value="2">Temporada</option>
+                                        <option value="3">Lo más vendido</option>
+                                        <option value="4">Sin unidades</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-2 row">
+                                <label class="col-sm-2 col-form-label">Stock</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" placeholder="Número de unidades disponibles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-2 row">
+                                <label class="col-sm-2 col-form-label">Precio</label>
+                                <div class="col-sm-9">
+                                    <input type="text" value="0,00" class="form-control ml-3" placeholder="Precio por unidad">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-2 row">
+                                <label class="col-sm-2 col-form-label">Estado</label>
+                                <div class="col-sm-10">
+                                    <select class="estado-categoria form-control">
+                                        <option value="0" selected>Seleccionar un Estado</option>
+                                        <option value="1">Activo</option>
+                                        <option value="2">Desactivado</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-success">Guardar cambios</button>
+                    <button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts{
+
+
+    @*Tabla*@
+    <script src="~/lib/datatables/jquery.datatables.min.js"></script>
+    <script src="~/lib/datatables-bs4/js/datatables.bootstrap4.min.js"></script>
+    <script src="~/lib/datatables-responsive/js/datatables.responsive.min.js"></script>
+    <script src="~/lib/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="~/lib/datatables-buttons/js/datatables.buttons.min.js"></script>
+    <script src="~/lib/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    @*filtros*@
+    <script src="~/lib/jszip/jszip.min.js"></script>
+    <script src="~/lib/pdfmake/pdfmake.min.js"></script>
+    <script src="~/lib/pdfmake/pdfmake.min.js"></script>
+    <script src="~/lib/pdfmake/vfs_fonts.js"></script>
+    <script src="~/lib/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="~/lib/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="~/lib/datatables-buttons/js/buttons.colVis.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true, "lengthChange": false, "autoWidth": false,
+                "buttons": ["excel", "pdf", "print", "colvis"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+        });
+    </script>
+}
 
