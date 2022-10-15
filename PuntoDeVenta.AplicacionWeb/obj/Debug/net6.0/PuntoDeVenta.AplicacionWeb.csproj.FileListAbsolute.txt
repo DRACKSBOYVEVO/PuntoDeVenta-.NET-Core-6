@@ -10,6 +10,10 @@ D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWe
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Humanizer.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\MessagePack.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Build.dll
@@ -37,6 +41,8 @@ D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWe
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -270,9 +276,3 @@ D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWe
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\obj\Debug\net6.0\PuntoDeVenta.AplicacionWeb.pdb
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\obj\Debug\net6.0\PuntoDeVenta.AplicacionWeb.genruntimeconfig.cache
 D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\obj\Debug\net6.0\ref\PuntoDeVenta.AplicacionWeb.dll
-D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
-D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-D:\Curso ASP .NET Core 6\Proyecto\ProyectoPuntoDeVenta\PuntoDeVenta.AplicacionWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

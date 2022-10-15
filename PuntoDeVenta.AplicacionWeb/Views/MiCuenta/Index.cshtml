@@ -8,12 +8,12 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Profile</h1>
+                <h1>Mi Perfil</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">User Profile</li>
+                    <li class="breadcrumb-item"><a asp-area="" asp-controller="Dashboard" asp-action="Index">Inicio</a></li>
+                    <li class="breadcrumb-item active">Mi cuenta</li>
                 </ol>
             </div>
         </div>
@@ -24,7 +24,7 @@
 <section class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
 
                 <!-- Profile Image -->
                 <div class="card card-primary card-outline">
@@ -34,7 +34,7 @@
                         </div>
                         <h3 class="profile-username text-center">Nina Mcintire</h3>
                         <p class="text-muted text-center">Software Engineer</p>
-                        <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+                        <a href="#" class="btn btn-success btn-block"><b>Renovar plan</b></a>
                     </div>
                     <!-- /.card-body -->
                 </div>
@@ -42,57 +42,53 @@
                 <!-- About Me Box -->
                 <div class="card card-primary">
                     <div class="card-header">
-                        <h3 class="card-title">About Me</h3>
+                        <h3 class="card-title">Mi información</h3>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <strong><i class="fas fa-book mr-1"></i> Education</strong>
-
-                        <p class="text-muted">
-                            B.S. in Computer Science from the University of Tennessee at Knoxville
-                        </p>
-
-                        <hr>
-
-                        <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
-
-                        <p class="text-muted">Malibu, California</p>
-
-                        <hr>
-
-                        <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
-
-                        <p class="text-muted">
-                            <span class="tag tag-danger">UI Design</span>
-                            <span class="tag tag-success">Coding</span>
-                            <span class="tag tag-info">Javascript</span>
-                            <span class="tag tag-warning">PHP</span>
-                            <span class="tag tag-primary">Node.js</span>
-                        </p>
-
-                        <hr>
-
-                        <strong><i class="far fa-file-alt mr-1"></i> Notes</strong>
+                        <strong><i class="far fa-file-alt mr-1"></i> Sobre mi</strong>
 
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+
+                        <hr>
+
+                        <strong><i class="fas fa-map-marker-alt mr-1"></i> Ubicación</strong>
+
+                        <p class="text-muted">Medellín, Colombia.</p>
+
+                        <hr>
+
+                        <strong><i class="fas fa-book mr-1"></i> Educación</strong>
+
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec velit.
+                        </p>
+
+                        <hr>
+
+                        <strong><i class="fas fa-book mr-1"></i> Correo</strong>
+
+                        <p class="text-muted">
+                            Loremipsum.Lorem.com
+                        </p>
                     </div>
                     <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
             </div>
             <!-- /.col -->
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <div class="card">
                     <div class="card-header p-2">
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="DetallesNegocio" data-bs-toggle="pill" data-bs-target="#detalles-negocio" type="button" role="tab" aria-controls="detalles-negocio" aria-selected="false">Mi Negocio</button>
+                                <button class="nav-link btn-sm active" id="DetallesNegocio" data-bs-toggle="pill" data-bs-target="#detalles-negocio" type="button" role="tab" aria-controls="detalles-negocio" aria-selected="false" style="border: none !important;">Información del negocio</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="EditarInformacion" data-bs-toggle="pill" data-bs-target="#editar-perfil" type="button" role="tab" aria-controls="editar-perfil" aria-selected="true">Editar Información</button>
+                                <button class="nav-link btn-sm" id="EditarInformacion" data-bs-toggle="pill" data-bs-target="#editar-perfil" type="button" role="tab" aria-controls="editar-perfil" aria-selected="true" disabled style="border: none !important;">Mi perfil</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="CambiarContraseña" data-bs-toggle="pill" data-bs-target="#cambiar-clave" type="button" role="tab" aria-controls="cambiar-clave" aria-selected="false">Cambiar Contraseña</button>
+                                <button class="nav-link btn-sm" id="CambiarContraseña" data-bs-toggle="pill" data-bs-target="#cambiar-clave" type="button" role="tab" aria-controls="cambiar-clave" aria-selected="false" disabled style="border: none !important;">Cambiar Contraseña</button>
                             </li>
                         </ul>
                     </div>
@@ -162,7 +158,7 @@
                                     </div>
                                     <div class="form-group row">
                                         <div class="offset-sm-2 col-sm-10">
-                                            <button type="button" class="btn btn-sm btn-success"><i class="fa fa-save mr-2"></i> Guardar cambios</button>
+                                            <button type="button" class="btn btn-success"><i class="fa fa-save mr-2"></i> Guardar cambios</button>
                                         </div>
                                     </div>
                                 </form>
@@ -170,77 +166,77 @@
                             <div class="tab-pane fade" id="editar-perfil" role="tabpanel" aria-labelledby="EditarInformacion">
                                 <form class="form-horizontal">
                                     <div class="form-group row">
-                                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                                        <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
                                         <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="inputName" placeholder="Name">
+                                            <input type="email" class="form-control" placeholder="Nombre completo">
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                                        <label for="inputName" class="col-sm-2 col-form-label">Cargo</label>
                                         <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                            <input type="email" class="form-control" placeholder="Puesto actual">
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="inputName2" class="col-sm-2 col-form-label">Name</label>
+                                        <label for="inputExperience" class="col-sm-2 col-form-label">Experiencia</label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="inputName2" placeholder="Name">
+                                            <textarea class="form-control" placeholder="Experiencia en el area"></textarea>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="inputExperience" class="col-sm-2 col-form-label">Experience</label>
+                                        <label for="inputName2" class="col-sm-2 col-form-label">Ubicación</label>
                                         <div class="col-sm-10">
-                                            <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                                            <input type="text" class="form-control" placeholder="Donde te encuentras ahora">
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="inputSkills" class="col-sm-2 col-form-label">Skills</label>
+                                        <label for="inputSkills" class="col-sm-2 col-form-label">Educación</label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
+                                            <input type="text" class="form-control" placeholder="Bachiller">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Correo</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" placeholder="Correo eléctronico">
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <div class="offset-sm-2 col-sm-10">
-                                            <button type="submit" class="btn btn-danger">Submit</button>
+                                            <button type="submit" class="btn btn-success"><i class="fa fa-save mr-2"></i> Guardar cambios</button>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                             <div class="tab-pane fade" id="cambiar-clave" role="tabpanel" aria-labelledby="CambiarContraseña">
                                 <form class="form-horizontal">
-                                    <div class="form-group row">
-                                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="inputName" placeholder="Name">
+                                    <div class="input-group mb-3">
+                                        <input type="password" class="form-control" placeholder="Contraseña actual">
+                                        <div class="input-group-append">
+                                            <div class="input-group-text">
+                                                <span class="fas fa-lock"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="password" class="form-control" placeholder="Nueva contraseña">
+                                        <div class="input-group-append">
+                                            <div class="input-group-text">
+                                                <span class="fas fa-unlock"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <input type="password" class="form-control" placeholder="Confirmar nueva contraseña">
+                                        <div class="input-group-append">
+                                            <div class="input-group-text">
+                                                <span class="fas fa-unlock"></span>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="inputName2" class="col-sm-2 col-form-label">Name</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="inputName2" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="inputExperience" class="col-sm-2 col-form-label">Experience</label>
-                                        <div class="col-sm-10">
-                                            <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label for="inputSkills" class="col-sm-2 col-form-label">Skills</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <div class="offset-sm-2 col-sm-10">
-                                            <button type="submit" class="btn btn-danger">Submit</button>
+                                        <div class="col-sm-4">
+                                            <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-save mr-2"></i> Guardar contraseña</button>
                                         </div>
                                     </div>
                                 </form>

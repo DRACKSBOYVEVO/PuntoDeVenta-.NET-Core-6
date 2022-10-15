@@ -4,13 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewData["Title"]</title>
-    @*Styles Site*@
-    <link href="~/dist/css/fonts.css" rel="stylesheet" />
-    <link href="~/dist/css/adminlte.min.css" rel="stylesheet" />
-    <link href="~/dist/css/puntodeventa.aplicacionweb.css" rel="stylesheet" asp-append-version="true" />
-    @*Puglins*@
-    <link href="~/lib/fontawesome-free/css/all.min.css" rel="stylesheet" />
-    <link href="~/lib/overlayscrollbars/css/overlayscrollbars.min.css" rel="stylesheet" />
+    
+    <partial name="_Styles" />
     @*Render Styles*@
     @await RenderSectionAsync("Styles", required: false)
 </head>

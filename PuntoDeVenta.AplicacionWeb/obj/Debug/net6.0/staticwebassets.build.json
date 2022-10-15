@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LYzWcHWlPApTzW3Gi0DqxFYylKBYdDQfYz54ZbyHE/A=",
+  "Hash": "M3Y4DKcFPoIhhBbaJRNBW4CvcYj8d5dZnR+XWi2q0CI=",
   "Source": "PuntoDeVenta.AplicacionWeb",
   "BasePath": "_content/PuntoDeVenta.AplicacionWeb",
   "Mode": "Default",
@@ -1052,6 +1052,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dist\\js\\pages\\dashboard.js"
+    },
+    {
+      "Identity": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\wwwroot\\dist\\js\\pages\\dashboard2.js",
+      "SourceId": "PuntoDeVenta.AplicacionWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\wwwroot\\",
+      "BasePath": "_content/PuntoDeVenta.AplicacionWeb",
+      "RelativePath": "dist/js/pages/dashboard2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\js\\pages\\dashboard2.js"
     },
     {
       "Identity": "D:\\Curso ASP .NET Core 6\\Proyecto\\ProyectoPuntoDeVenta\\PuntoDeVenta.AplicacionWeb\\wwwroot\\dist\\js\\pages\\dashboard3.js",
