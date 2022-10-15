@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "Registro de ventas - Punto De Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <h6 class="card-header bg-dark text-white">Registro de Ventas</h6>
+    <div class="card-body">  
+        <div class="row">
+            <div class="col ml-2">
+                <div class="mb-2 row">
+                    <label class="form-label">Filtro</label>
+                    <select class="form-control form-control-sm ml-1">
+                        <option value="0" selected>Buscar por</option>
+                        <option value="1">Un rango de fechas</option>
+                        <option value="2">Número de ventas</option>
+                    </select>
+                    <button type="submit" class="btn btn-sm btn-primary mt-2 ml-1"><i class="fa fa-search mr-2"></i> Buscar</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-2 row">
+                    <label class="form-label">Fecha de inicio</label>
+                    <input type="date" class="form-control form-control-sm ml-1" placeholder="Rango de fecha inicial">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-2 row">
+                    <label class="form-label">Fecha Fin</label>
+                    <input type="date" class="form-control form-control-sm ml-1" placeholder="Rango de finalización">
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-2 row">
+                    <label class="form-label">Número de venta</label>
+                    <input type="text" class="form-control form-control-sm ml-1" value="0000">
+                </div>
+            </div>
+        </div>
+
+        <table class="table table-sm table-bordered table-striped mt-3" id="example1">
+            <thead>
+                <tr>
+                    <th>Fecha de Registro</th>
+                    <th>Número de venta</th>
+                    <th>Tipo de documento</th>
+                    <th>Documento cliente</th>
+                    <th>Nombre cliente</th>
+                    <th>Total</th>
+                    <th>Detalles</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Fecha de Registro</th>
+                    <th>Número de venta</th>
+                    <th>Tipo de documento</th>
+                    <th>Documento cliente</th>
+                    <th>Nombre cliente</th>
+                    <th>Total</th>
+                    <th>Detalles</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+

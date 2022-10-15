@@ -1,8 +1,88 @@
 ﻿
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Reporte de ventas - Punto De Venta";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<div class="card">
+    <h6 class="card-header bg-dark text-white">Reporte de Ventas</h6>
+    <div class="card-body">
+        <h5 class="card-title text-bold mb-1">Ventas registradas en los últimos meses</h5>
+
+        <div class="row row-3">
+            <div class="col-3 ml-2">
+                <div class="mb-2 row">
+                    <label class="form-label">Fecha de inicio</label>
+                    <input type="date" class="form-control form-control-sm ml-1" placeholder="Rango de fecha inicial">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="mb-2 row">
+                    <label class="form-label">Fecha Fin</label>
+                    <input type="date" class="form-control form-control-sm ml-1" placeholder="Rango de finalización">
+                </div>
+            </div>
+            <div class="col-auto mt-4">
+                <button type="submit" class="btn btn-sm btn-primary mt-2 ml-1"><i class="fa fa-search mr-2"></i> Buscar</button>
+            </div>
+        </div>
+
+        <table class="table table-sm table-bordered table-striped mt-3" id="example1">
+            <thead>
+                <tr>
+                    <th>F. Registro</th>
+                    <th>N. Venta</th>
+                    <th>T. documento</th>
+                    <th>D. Cliente</th>
+                    <th>SubTotal</th>
+                    <th>I. Total</th>
+                    <th>Total Venta</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>F. Registro</th>
+                    <th>N. Venta</th>
+                    <th>T. documento</th>
+                    <th>D. Cliente</th>
+                    <th>SubTotal</th>
+                    <th>I. Total</th>
+                    <th>Total Venta</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
 

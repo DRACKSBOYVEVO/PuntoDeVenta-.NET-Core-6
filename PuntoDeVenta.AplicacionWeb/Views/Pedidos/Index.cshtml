@@ -1,0 +1,117 @@
+﻿
+@{
+    ViewData["Title"] = "Ventas - Punto De Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@*Datos del cliente*@
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <h6 class="card-header bg-dark text-white mb-3">Datos del cliente</h6>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label">NIT/Documento</label>
+                            <input type="text" class="form-control form-control-sm" placeholder="Número de identificación">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label ml-1">Nombre</label>
+                            <input type="text" class="form-control form-control-sm ml-1" placeholder="Nombre del cliente">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label ml-1">Empresa</label>
+                            <input type="text" class="form-control form-control-sm ml-1" placeholder="Nombre de la empresa actual">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label ml-1">Teléfono</label>
+                            <input type="text" class="form-control form-control-sm ml-1" placeholder="Teléfono del cliente">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*Detalles de la compra*@
+    <div class="col-lg-6">
+        <div class="card">
+            <h6 class="card-header bg-dark text-white">Detalles de la compra</h6>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label">Tipo de compra</label>
+                            <select class="form-control form-control-sm">
+                                <option value="0" selected>Seleccionar un tipo</option>
+                                <option value="1">Colilla</option>
+                                <option value="2">Factura</option>
+                                <option value="3">Factura Eléctronica</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label ml-1">SubTotal</label>
+                            <input type="text" class="form-control form-control-sm ml-1" value="0,00" disabled>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label ml-1">IVA</label>
+                            <input type="text" class="form-control form-control-sm ml-1" value="0,00" disabled>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-2 row">
+                            <label class="col-form-label ml-1">Total</label>
+                            <input type="text" class="form-control form-control-sm ml-1" value="0,00" disabled>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*Productos*@
+<div class="card">
+    <h6 class="card-header bg-dark text-white">Productos agregados</h6>
+    <div class="card-body">
+        <table class="table table-sm table-bordered table-striped mt-3" id="example1">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                    <td>Item</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
