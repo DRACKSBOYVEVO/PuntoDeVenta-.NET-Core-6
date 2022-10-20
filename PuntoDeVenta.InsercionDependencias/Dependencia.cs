@@ -12,6 +12,9 @@ using PuntoDeVenta.AccesoDatos.DBContext;
 using Microsoft.EntityFrameworkCore;
 using PuntoDeVenta.AccesoDatos.Implementacion;
 using PuntoDeVenta.AccesoDatos.Interfaces;
+using IVentaRepository = PuntoDeVenta.AccesoDatos.Implementacion.IVentaRepository;
+using VentaRepository = PuntoDeVenta.AccesoDatos.Implementacion.IVentaRepository;
+
 
 namespace PuntoDeVenta.InsercionDependencias
 {
@@ -25,6 +28,9 @@ namespace PuntoDeVenta.InsercionDependencias
                 /* Obtención de la cadena de conexión del archivo appsettings.json. */
                 options.UseSqlServer(configuration.GetConnectionString("CadenaSQL"));
             });
+
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IVentaRepository, VentaRepository>();
         }
     }
 }
