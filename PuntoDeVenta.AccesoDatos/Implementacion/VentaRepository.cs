@@ -17,10 +17,10 @@ namespace PuntoDeVenta.AccesoDatos.Implementacion
 
         private readonly DB_PROYECTOContext DB_Context;
 
-        public IVentaRepository(DB_PROYECTOContext DBContext) : base(DBContext)
-        {
-            DB_Context = DBContext;
-        }
+        //public IVentaRepository(DB_PROYECTOContext DBContext) : base(DBContext)
+        //{
+        //    DB_Context = DBContext;
+        //}
 
 
         public Task<Venta> Obtener(Expression<Func<Venta, bool>> Filtro)

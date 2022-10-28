@@ -47,6 +47,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/RecuperarClave/EnviarClave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXBlcmFyQ2xhdmVcRW52aWFyQ2xhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/RecuperarClave/RestablecerClave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjdXBlcmFyQ2xhdmVcUmVzdGFibGVjZXJDbGF2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Curso ASP .NET Core 6/Proyecto/ProyectoPuntoDeVenta/PuntoDeVenta.AplicacionWeb/Views/RegistroDeVentas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9EZVZlbnRhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

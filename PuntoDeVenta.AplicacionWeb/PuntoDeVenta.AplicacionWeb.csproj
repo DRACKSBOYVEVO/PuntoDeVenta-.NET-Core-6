@@ -28,4 +28,8 @@
     <ProjectReference Include="..\PuntoDeVenta.LogicaDeNegocio\PuntoDeVenta.LogicaDeNegocio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Utilidades\" />
+  </ItemGroup>
+
 </Project>

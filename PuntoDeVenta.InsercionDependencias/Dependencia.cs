@@ -14,7 +14,8 @@ using PuntoDeVenta.AccesoDatos.Implementacion;
 using PuntoDeVenta.AccesoDatos.Interfaces;
 using IVentaRepository = PuntoDeVenta.AccesoDatos.Implementacion.IVentaRepository;
 using VentaRepository = PuntoDeVenta.AccesoDatos.Implementacion.IVentaRepository;
-
+using PuntoDeVenta.LogicaDeNegocio.Implementacion;
+using PuntoDeVenta.LogicaDeNegocio.Interfaces;
 
 namespace PuntoDeVenta.InsercionDependencias
 {
@@ -31,6 +32,7 @@ namespace PuntoDeVenta.InsercionDependencias
 
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IVentaRepository, VentaRepository>();
+            services.AddScoped<IRolServicio, RolServicio>();
         }
     }
 }
